@@ -6,7 +6,7 @@ import pandas as pd
 # -----------------------------
 # Load Model
 # -----------------------------
-with open("Linear_model.pkl", "rb") as file:
+with open("linear_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 # -----------------------------
